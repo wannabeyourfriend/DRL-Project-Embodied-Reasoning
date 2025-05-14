@@ -1,0 +1,65 @@
+# 模型权重和检查点文件
+*.bin
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+*.model
+weights/
+checkpoints/
+saved_models/
+pretrained/
+runs/
+outputs/
+
+# 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+.ipynb_checkpoints/
+.virtual_environments/
+
+# 日志文件
+*.log
+logs/
+tensorboard/
+wandb/
+mlruns/
+
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# 编辑器和IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+
+# Transformer特定缓存
+.transformers_cache/
+.huggingface/
+cache/
+
+# 其他大文件
+*.tar
+*.tar.gz
+*.zip
+*.rar
