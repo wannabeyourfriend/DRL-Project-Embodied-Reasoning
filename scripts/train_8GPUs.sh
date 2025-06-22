@@ -1,10 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7,8
-# Ensure your WANDB_API_KEY is set if using Weights & Biases
-# export WANDB_API_KEY=036fd15cc49697909ef8f1b7fcbd93aacea64dd6 # Added 'export'
-
-# Path to your custom plugins (dataset preprocessor, reward models)
 MY_CUSTOM_PLUGINS="/cluster/home1/wzx/EgoReasoner/train/reward/imitation/reward.py"
-CONSOLIDATED_DATASET_PATH="/cluster/home1/wzx/EgoReasoner/data/imitation/embodied_agent_train_dataset_1_100_s_consolidated_modified.jsonl" # 小规模pipeline验证实验
+CONSOLIDATED_DATASET_PATH="/cluster/home1/wzx/EgoReasoner/data/imitation/embodied_agent_train_dataset_1_100_s_consolidated_modified.jsonl" 
 
 NPROC_PER_NODE=8 # Number of GPUs for training
 NUM_INFER_WORKERS=1 # Number of GPUs for inference workers
